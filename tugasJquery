@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".1").click(function(){
+    $(this).hide();
+  });
+
+  $(document).ready(function(){
+  $(".2").dblclick(function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".3").mouseleave(function(){
+  alert("Bye! You now leave Me");
+});
+
+});
+
+
+});
+</script>
+</head>
+<body>
+<div class="1"><p>If you click on me, I will disappear.</p></div>
+
+<div class="2"><p>If you double-click on me, I will disappear.</p></div>
+
+<div class="3">click Me</div>
+
+
+</body>
+</html>
