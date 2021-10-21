@@ -29,7 +29,7 @@ function check_barang() {
            $("#nama_barang_error_message").hide();
         }
      }
-})
+
 
 function check_harga() {    
     var hargaBarang = $("#inputHarga").val();
@@ -70,4 +70,4 @@ $("#inputForm").submit(function(){
         return false;
      }
 })
-
+})
